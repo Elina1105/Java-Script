@@ -1,0 +1,72 @@
+li {
+    width: 450px;
+    padding: 10px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+    border: 2px solid black;
+}
+#editor {
+    width: 800px;
+    height: auto;
+    background-image: url(vidy.jpg);
+    background-repeat: inherit;
+    border: double;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+}
+.sky {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.addBtn, .button1{
+    font-size: 20px;
+    font-family: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(216, 199, 41);
+    border: 1px solid black;
+}
+
+#shoppingList{
+    padding: 20px;
+}
+
+.close{
+    color: black;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.checked{
+    color: white;
+    background:rgb(216, 199, 41); 
+}
+
+#myInput{
+    font-size: 20px;
+    font-family: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.colorChange {
+    background-color:red ;
+    color: white
+}
+.button1{
+    margin: 20px;
+}
+
+a{
+   color:rgb(216, 199, 41); 
+}

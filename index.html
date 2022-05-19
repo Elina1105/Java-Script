@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Спосок гірськолижних курортів</title>
+</head>
+
+<body>
+
+    <div contenteditable="true" id="editor">
+        <h1 id="header">Список </h1>
+        <h2>Гірськолижних курортів</h2>
+   
+        <ul id="myUL">
+            <li id=contentEditable class="sky">BELLA COOLA<em> Canada</em></li>
+            <li id="two" class="sky">MENCHIL<em> Ukraine</em></li>
+            <li id="three" class="sky">ALTENMARKT-ZAUCHENSEE<em> Austria</em></li>
+            <li id="three" class="sky">GRESSONEY MONTE ROSA<em> Italy</em></li>
+            <li id="four" class="sky">CHATEL<em> France</em></li>
+            <li id="five" class="sky">ALYESKA RESORT<em> Canada</em></li>
+            <li id="six" class="sky">BAD-MITTERNDORF<em> Austria</em> </li>
+            <li id="seven" class="sky">MADONNA DI CAMPIGLIO<em> Italy</em></li>
+            <li id="eight" class="sky">MEGEVE EVASION MONT BLAN<em> France</em></li>
+            <li id="nine" class="sky">FUGEN-KALTENBACH<em> Austria</em></li>
+            <li id="ten" class="sky">KUNGSBERGET<em> Sweden</em></li>
+        </ul>
+<div id="myDIV" class="header">
+            <input type="text" id="myInput" placeholder="Введіть назву...">
+            <span onclick="newElement()" class="addBtn">Добавити в список</span>
+        </div>
+        <div>
+            <button id='butt' class="button1" onclick="changeColor()">Змінити колір списку</button>
+        </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
